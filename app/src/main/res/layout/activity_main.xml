@@ -1,27 +1,4 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainFragmentContainer"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center"
-    android:orientation="horizontal">
-
-    <LinearLayout
-        android:id="@+id/mainFragmentContainer"
-        android:layout_width="0dip"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:gravity="center"
-        android:orientation="horizontal">
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/secondFrag"
-        android:layout_width="0dip"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:gravity="center"
-        android:orientation="horizontal">
-
-    </LinearLayout>
-
-</LinearLayout>
+    android:layout_height="match_parent" />
